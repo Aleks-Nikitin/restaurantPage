@@ -1,0 +1,19 @@
+.titleMenu{
+    display: grid;
+    justify-content: center;
+    background-color: blueviolet;
+}
+.titleMenu>*{
+    font-size: 90px;
+}
+#menuPic{
+    height: 200px;
+}
+.headling{
+    color: pink;
+    font-size: 48px;
+}
+.menuPositions {
+    color: azure;
+    font-size: 38px;
+}

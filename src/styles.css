@@ -38,6 +38,8 @@ header{
 #content{
     background-color: #0A97B0;
     border: 1px solid black;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
     width: 60%;
     display: grid;
     margin: 0 auto;
