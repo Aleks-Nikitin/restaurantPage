@@ -1,0 +1,74 @@
+@font-face {
+    font-family: forTitle;
+    src: url(havana-personal-use-only.regular.ttf);
+}
+@font-face {
+    font-family: usualText;
+    src: url(baby-sparkle.regular.ttf);
+}
+body{
+    background-color: #FFCFEF;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+}
+nav{
+    height: 100%;
+
+}
+nav>button{
+ appearance: none;
+ font-size: 20px;
+ padding: 8px 25px 8px 25px;
+ border-radius: 20px;
+ border: 1px solid black;
+ background-color: aliceblue;
+ margin-right: 10px;
+ font-family: usualText;
+}
+nav>button:hover{
+    background-color: aquamarine;
+    transition-duration: 600ms;
+}
+header{
+    padding: 30px 0 30px 0;
+    display: flex;
+    justify-content: center;
+}
+#content{
+    background-color: #0A97B0;
+    border: 1px solid black;
+    width: 60%;
+    display: grid;
+    margin: 0 auto;
+    font-family: usualText;
+    gap: 30px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.center-text{
+    font-size: 50px;
+    font-family: forTitle;
+}
+.block{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #0A5EB0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.block>.headline{
+    font-size: xx-large;
+    color: #FFCFEF;
+}
+.block>.text{
+    font-size: x-large;
+    color: white;
+}
+img{
+    height: 80px;
+}
